@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../styles/product_page.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="../styles/cart_icon.css">
+     <title></title>
+     <script src="../scripts/product_page.js" type="module"></script>
+     <script src="../scripts/cart_btn.js" type="module"></script>
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <script>
+          $(function() {
+               $('#header').load('./header.html');
+          })
+     </script>
+</head>
+<body>
+     <header id="header">
+
+     </header>
+     <div id="product">
+          <div class="section">
+               <div class="img-section">
+                    <img id="img">
+                    <!-- <i class="material-icons" style="font-size: auto;">delete</i> -->
+                    <div>
+                         <button id="cart-btn">Add to cart +</button>
+                    </div>
+               </div>
+               <div class="info-section">
+                    <h2 id="name"></h2>
+                    <p id="description"></p>
+                    <div class="line">
+                         <h3 id="price" class="left"></h3>
+                         <h3 id="seller" class="seller right"></h3>
+                    </div>
+                    <hr>
+                    <div id="data-section"></div>
+               </div>
+          </div>
+     </div>
+     <a style="display: none;" id="cart-counter" href="./cart.html">
+          <span id="much-purchase">0</span>
+          <i class="fa fa-shopping-basket"></i>
+     </a>
+</body>
+</html>

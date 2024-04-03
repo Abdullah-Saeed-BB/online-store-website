@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="../styles/shop.css">
+     <link rel="stylesheet" href="../styles/popup.css">
+     <link rel="stylesheet" href="../styles/cart_icon.css">
+     <title>Home</title>
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <script>
+          $(function() {
+               $('#header').load('./header.html');
+          })
+     </script>
+</head>
+<body>
+     <header>
+          <div id="header">
+          </div>
+          <div id="header-filters">
+               <div class="header-links">
+                    <span class="products-filter active" id="show-all">All</span>
+                    <span class="products-filter" id="show-book">Books</span>
+                    <span class="products-filter" id="show-clothe">Clothes</span>
+                    <span class="products-filter" id="show-laptop">Laptops</span>
+                    <span class="products-filter" id="show-car">Cars</span>
+               </div>
+          </div>
+     </header>
+     <div id="phrase">
+          <h1>Everything you need, from books to cars.</h1>          
+     </div>
+     <div id="shop">
+          <div id="popup-window">
+               <div id="popup-box">
+                    <div id="popup-content"></div>
+                    <hr>
+                    <button onclick="closePopup()">Close</button>
+               </div>
+          </div>
+          <a style="display: none;" id="cart-counter" href="./cart.html">
+               <span id="much-purchase">0</span>
+               <i class="fa fa-shopping-basket"></i>
+          </a>
+     </div>
+</body>
+     <!-- <script src="../product_data/products_data.json"></script> -->
+     <!-- <script src="../scripts/test.js" type="module"></script> -->
+     <script src="../scripts/product_class.js" type="module"></script>
+     <script src="../scripts/product_generator.js" type="module"></script>
+     <script src="../scripts/cart_btn.js" type="module"></script>
+     <script src="../scripts/pop_up.js"></script>
+     <script src="../scripts/product_filter.js"></script>
+</html>

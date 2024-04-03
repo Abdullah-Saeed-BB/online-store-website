@@ -1,0 +1,138 @@
+#product {
+     margin: 20px 10px;
+}
+
+.error-page {
+     text-align: center;
+}
+
+.img-section {
+     padding: 0 30px;
+     box-sizing: border-box;
+}
+
+.img-section img {
+     border-radius: 20px 20px 0 0;
+     width: 100%;
+}
+
+.info-section {
+     margin: 50px 0;
+     width: 100%;
+}
+
+.info-section h2 {
+     margin-top: 0;
+}
+
+.line {
+     height: 40px;
+     margin-top: 15px;
+}
+
+#seller, #price, .book-section h3, .car-section h4 {
+     margin: 0;
+}
+
+.seller {
+     color: #00b4d8;
+     text-decoration: underline;
+} 
+
+.product-type-1 {
+     outline: 1px solid #49b6ff;
+     color: #49b6ff;
+     padding: 1px 10px;
+     border-radius: 20px;
+}
+
+/* Clothe */
+
+.product-clothe-colors {
+     padding: 0;
+     display: inline;
+}
+
+.product-clothe-colors li {
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     margin-right: 9px;
+     border: 3px solid white;
+     outline: 1px solid gray;
+     border-radius: 50%;
+}
+
+/* Laptop */
+
+.table-section table {
+     width: 100%;
+     border-collapse: collapse;
+}
+
+.table-section td {
+     padding: 6px 5px 6px 0;
+}
+
+.table-section td:nth-child(even) {
+     padding-left: 13px;
+     font-style: italic;
+     font-size: 14px;
+     border-left: 2px groove;
+}
+
+/* Car */
+
+.car-section .left {
+     width: 50%;
+}
+
+.car-section .right {
+     text-align: right;
+     width: 50%;
+}
+
+/* Button */
+
+#cart-btn {
+     border: none;
+     border-radius: 0 0 10px 10px;
+     float: right;
+     height: 30px;
+     width: 100%;
+     background-color: #4eb0e9;
+     color: white;
+}
+#cart-btn:hover {
+     background-color: #448fbb;
+}
+
+#cart-btn.in-cart {
+     background-color: #ff6b35;
+}
+
+#cart-btn.in-cart:hover {
+     background-color: #c55228;
+}
+
+@media screen and (min-width: 800px) {
+     #product {
+          padding: 30px 0;
+          max-width: 1000px;
+          margin: auto;
+     }
+
+     .section {
+          display: flex;
+     }
+
+     .img-section {
+          padding: 0 20px;
+          width: 35%;
+     }
+
+     .info-section {
+          margin: 0 20px 0 0;
+          width: 65%;
+     }
+}

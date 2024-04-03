@@ -1,0 +1,27 @@
+#cart-counter {
+     position: fixed;
+     background-color: #1b4965;
+     color: white;
+     width: 60px;
+     height: 60px;
+     border-radius: 50px;
+     margin: 30px;
+     bottom: 0;
+     right: 0;
+     text-align: center;
+}
+
+#cart-counter i {
+     position: absolute;
+     inset: 17px 0;
+     font-size: 25px;
+}
+
+#much-purchase {
+     width: 25px;
+     height: 25px;
+     border-radius: 20px;
+     background-color: #dd1c1a;
+     position: absolute;
+     inset: -5px;
+}

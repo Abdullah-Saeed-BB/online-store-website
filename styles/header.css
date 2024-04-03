@@ -1,0 +1,50 @@
+body {
+     margin: 0;
+     font-family: 'Lucida Sans Unicode', sans-serif;
+}
+
+.header {
+     height: 20px;
+     padding: 20px;
+     padding-bottom: 0;
+     color: white;
+}
+
+.header-head {
+     height: 40px;
+     padding: 20px;
+     padding-bottom: 0;
+     background-color: #1b4965;
+     text-align: left;
+}
+
+.header-links {
+     width: 100%;
+     max-width: 800px;
+     margin: 0 auto;
+}
+
+.page-link {
+     color: white;
+     text-decoration: none;
+}
+
+.page-link{
+     margin-right: 20px;
+}
+
+.page-link:hover {
+     color: lightgray;
+}
+
+.logo {
+     height: 20px;
+}
+
+.left {
+     float: left;
+}
+
+.right {
+     float: right;
+}

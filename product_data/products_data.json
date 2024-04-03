@@ -1,0 +1,205 @@
+{
+     "book": [
+          {
+               "id": 0,
+               "name": "The Alchemist's Cupcake",
+               "seller": "Penelope Featherdash",
+               "description": "When Amelia Butterbean's prize-winning cupcake recipe vanishes, she must use her knowledge of ancient baking spells and a dash of detective work to uncover the culprit in her quirky village of Flourhaven.",
+               "price": 12.95,
+               "genre": "Fantasy",
+               "introduction": "A plume of cinnamon smoke billowed from Amelia Butterbean's bakery window, scenting the cobbled streets of Flourhaven with the promise of sugary delight. Inside, Amelia, a woman whose smile could rival the sweetness of her creations, dusted flour from her apron and surveyed her masterpiece: a golden brown cupcake nestled in a bed of whipped cream, its secret ingredient – a sprinkle of pixie dust – shimmering faintly in the afternoon light. This wasn't just any cupcake; it was Amelia's entry for the annual Flourhaven bake-off, a legendary competition with a trophy coveted by bakers far and wide. But as Amelia reached for her recipe book, her heart sank. It was gone, vanished like a sprinkle on the wind. Panic clawed at her throat. Without the recipe, her prize-winning cupcake was just a delicious mystery. But Amelia wasn't one to crumble. She steeled herself, a glint of determination in her hazel eyes. This wasn't just about the competition; it was about her grandmother's legacy. She would find the missing recipe, and along the way, she might just uncover a secret tastier than any pastry filling..."
+          },
+          {
+               "id": 1,
+               "name": "The Marlowe Manuscripts",
+               "seller": "Evelyn Knight",
+               "description": "Young scholar, Clara Fairchild, stumbles upon a hidden collection of Shakespeare's unpublished works, thrusting her into a world of intrigue, forbidden love, and a race against time to protect the Bard's legacy.",
+               "price": 45.25,
+               "genre": "Romance",
+               "introduction": "A crisp autumn wind whipped through London's cobblestone streets, sending a shiver down Clara Fairchild's spine as she hurried towards the British Museum. Clutching a worn leather satchel, her heart pounded with a mixture of trepidation and excitement. For months, she had toiled in dusty archives, deciphering cryptic clues left by her late mentor, a renowned Shakespearean scholar. Today, she was finally on the verge of uncovering his greatest secret: a hidden chamber rumored to house a trove of the Bard's unpublished manuscripts. Weaving through the bustling crowd, Clara reached the imposing museum entrance. Taking a deep breath, she stepped inside, the echoes of her footsteps swallowed by the cavernous hall. Little did she know, this was just the beginning of an extraordinary adventure, one that would rewrite literary history, challenge her understanding of love, and force her to confront a powerful enemy determined to keep Shakespeare's secrets buried."
+          },
+          {
+               "id": 2,
+               "name": "Project Meowgician",
+               "seller": "Alexi Furrguson",
+               "description": "When a down-on-his-luck inventor accidentally imbues his mischievous cat with telekinetic powers, chaos erupts in their tiny apartment. Now, they must work together to keep the secret from a prying government agency and use their newfound abilities for good (or maybe just a never-ending supply of tuna).",
+               "price": 35.99,
+               "genre": "Science Fiction",
+               "introduction": "The air crackled with nervous energy in Professor Barnaby \"Benny\" Whiskers' cluttered apartment. Surrounded by a precarious mountain of mismatched wires, blinking circuit boards, and half-eaten cans of tuna, Benny mopped his brow with a grease-stained rag. Today was the day. After years of toiling away in obscurity, his invention, the \"Wiskers Wave Magnifier,\" was finally ready for testing. His test subject? Mittens, his ginger tabby cat, who lounged regally on a pile of crumpled blueprints, seemingly unimpressed by the contraption that buzzed menacingly in front of him. With a deep breath, Benny flipped the switch. A jolt of electricity surged through the room, and for a heart-stopping moment, everything went dark. When the lights flickered back on, Benny blinked, expecting the familiar sight of his snoozing feline. Instead, he found himself staring at a cat defying gravity, its paws hovering mid-air, a half-eaten can of tuna suspended beside it. A mischievous glint twinkled in Mittens' green eyes. Project Meowgician, it seemed, was a success."
+          },
+          {
+               "id": 3,
+               "name": "Death by Disco Ball",
+               "seller": "Dizzy Diamond",
+               "description": "Former disco queen, Gloria Glitter, thought her days of platform shoes and polyester pantsuits were behind her. Now, running a quiet roller rink in a forgotten corner of Brooklyn, her life takes a dramatic turn when a murder occurs on the dance floor, glitter sparkling under the ominous disco ball. Gloria, with her keen eye for detail and a rolodex full of colorful characters, must put on her dancing shoes once again and solve the case before the last bell bottoms boogie off the scene.",
+               "price": 91.28,
+               "genre": "Murder Mystery",
+               "introduction": "The mirrored ball above the rink pulsed with multicolored light, casting a psychedelic glow on the roller skates gliding across the polished floor. Gloria Glitter, a woman whose sequined jumpsuit shimmered brighter than the disco ball itself, watched with a practiced eye. Once the undisputed queen of the roller disco scene, Gloria had traded glitter bombs for bubblegum wrappers, her spotlight for the soft glow of fairy lights. But the thumping bass and rhythmic whoosh of wheels brought back a familiar thrill. Suddenly, a piercing scream shattered the groovy atmosphere. A young woman lay sprawled on the floor, a single red rose clutched in her hand, its petals stained crimson. Gloria's heart lurched. Murder on her once-glittering dance floor? This wasn't just any roller disco mishap. Armed with her disco ball intuition and a rolodex full of old friends with questionable pasts, Gloria knew she had to find the killer. After all, no one puts Baby in a corner, and certainly, no one gets away with murder under her disco ball."
+          }
+     ],
+     "clothe": [
+          {
+               "id": 4,
+               "name": "Night Rider",
+               "seller": "Faux Rebel",
+               "description": "This edgy jacket features a classic trucker silhouette with a modern twist. The heavyweight denim is distressed for a lived-in look, and the dark indigo color gives it a rebellious vibe.",
+               "price": 28.45,
+               "clothType": "Denim",
+               "colors": ["#30193C", "#8DBEFD", "#000000"]
+          },
+          {
+               "id": 5,
+               "name": "Chroma Shift",
+               "seller": "Cyber Hype",
+               "description": "Stand out from the crowd with this eye-catching tee. The soft jersey knit provides comfort, while the holographic print creates a mesmerizing effect that shifts color as you move.",
+               "price": 89.23,
+               "clothType": "Soft jersey",
+               "colors": ["#000000"]
+          },
+          {
+               "id": 6,
+               "name": "Fleece with a washed finish",
+               "seller": "Active Blend",
+               "description": "Comfort meets functionality with these joggers. The soft fleece fabric with a washed finish provides a relaxed feel, while the cargo pockets offer ample storage. Perfect for everyday wear or hitting the gym.",
+               "price": 27.69,
+               "clothType": "Fleece",
+               "colors": ["#43A047", "#333333", "#C7573E"]
+          },
+          {
+               "id": 7,
+               "name": "City Puff",
+               "seller": "Thermo Lite",
+               "description": "Stay warm and stylish with this cropped puffer jacket. The water-resistant polyester shell keeps you dry, while the down-alternative filling provides lightweight warmth. The trendy cropped silhouette is perfect for layering over dresses or leggings.",
+               "price": 14.99,
+               "clothType": "Polyester",
+               "colors": ["#FFC0CB", "#A9A9A9", "#000000"]
+          },
+          {
+               "id": 8,
+               "name": "Lumen Lite",
+               "seller": "Tech Threads",
+               "description": "Be seen and stay sustainable with this innovative hoodie. The built-in solar panel discreetly integrated into the back hood charges a network of thin, neon green LED strips along the sleeves and chest. Control the light settings with a hidden button on the cuff, making it perfect for nighttime activities or low-light conditions.",
+               "price": 25.04,
+               "clothType": "Cotton",
+               "colors": ["#000000", "#38FF00"]
+          },
+          {
+               "id": 9,
+               "name": "Aura Flux",
+               "seller": "Harmony Wear",
+               "description": "Look good and feel good with these unique leggings. The high-performance fabric keeps you comfortable during workouts, while the embedded thermochromic pigments react to your body temperature, creating a mesmerizing shift in color from black to cool blues and purples. It's a subtle way to express your inner state of mind and motivation.",
+               "price": 24.99,
+               "clothType": "Fabric",
+               "colors": ["#000000", "#007FFF", "#800080"]
+          }
+     ],
+     "laptop": [
+          {
+               "id": 10,
+               "name": "Apx Gaming X700",
+               "seller": "TechTronics",
+               "description": "Dominate the competition with the Apx Gaming X700. This high-performance laptop boasts a powerful processor and graphics card to handle even the most demanding games.",
+               "price": 351.49,
+               "os": "Windows 11 Home",
+               "cpu": "Intel Core i7-13700H",
+               "ram": "16GB DDR5",
+               "storage": "1TB PCIe NVMe SSD",
+               "screenSize": "15.6 inches (FHD)"
+          },
+          {
+               "id": 11,
+               "name": "Zephyrus G14",
+               "seller": "ASUS",
+               "description": "The ASUS Zephyrus G14 is the perfect blend of power and portability. This lightweight laptop packs a punch with its powerful processor and discrete graphics, making it ideal for gamers and creators on the go.",
+               "price": 279.99,
+               "os": "Windows 11 Pro",
+               "cpu": "AMD Ryzen 7 6800HS",
+               "ram": "8GB DDR5",
+               "storage": "512GB PCIe NVMe SSD",
+               "screenSize": "14 inches (QHD)"
+          },
+          {
+               "id": 12,
+               "name": "MacBook Air M2",
+               "seller": "Apple",
+               "description": "The new MacBook Air M2 delivers incredible performance and efficiency. This sleek and lightweight laptop is perfect for students, professionals, and anyone who needs a powerful and portable machine.",
+               "price": 438.86,
+               "os": "macOS Monterey",
+               "cpu": "Apple M2 Chip",
+               "ram": "8GB Unified Memory",
+               "storage": "256GB SSD",
+               "screenSize": "13.3 inches (Retina Display)"
+          },
+          {
+               "id": 13,
+               "name": "Legion 5 Pro",
+               "seller": "Lenovo",
+               "description": "The Lenovo Legion 5 Pro is a powerful gaming laptop that offers excellent performance for the price. It features a powerful processor and graphics card, making it a great choice for gamers who want to play the latest games at high settings.",
+               "price": 1449.99,
+               "os": "Windows 11 Home",
+               "cpu": "AMD Ryzen 5 6600H",
+               "ram": "16GB DDR4",
+               "storage": "512GB PCIe NVMe SSD",
+               "screenSize": "16 inches (QHD)"
+          },
+          {
+               "id": 14,
+               "name": "XPS 13 Plus",
+               "seller": "Dell",
+               "description": "The Dell XPS 13 Plus is a premium ultrabook that offers a beautiful design, long battery life, and powerful performance. It's a great choice for professionals who need a portable and stylish laptop that can handle demanding tasks.",
+               "price": 827.04,
+               "os": "Windows 11 Pro",
+               "cpu": "Intel Core i7-1250U",
+               "ram": "32GB LPDDR5",
+               "storage": "1TB PCIe NVMe SSD",
+               "screenSize": "13.4 inches (OLED)"
+          }
+     ],
+     "car": [
+          {
+               "id": 15,
+               "name": "2020 Honda Accord Sport",
+               "seller": "Sunshine Auto",
+               "description": "This sporty sedan is perfect for those who want a fun and fuel-efficient car. It has a clean history and has been meticulously maintained.",
+               "price": 24999,
+               "kilometersPass": 52000,
+               "history": []
+          },
+          {
+               "id": 16,
+               "name": "2018 Ford F-150 XLT",
+               "seller": "Reliable Motors",
+               "description": "This powerful truck is ready for anything you throw at it. It has a tow hitch and a bed liner, perfect for hauling all your gear. One minor accident reported on the Carfax, repaired professionally.",
+               "price": 38500,
+               "kilometersPass": 87000,
+               "history": ["One minor accident reported on Carfax", "Repaired professionally."]
+          },
+          {
+               "id": 17,
+               "name": "2023 Toyota Prius Prime",
+               "seller": "Greenline Cars",
+               "description": "This eco-friendly car is perfect for those who want to save money on gas. It has a plug-in hybrid drivetrain and gets amazing gas mileage. No reported accidents on the Carfax.",
+               "price": 32995,
+               "kilometersPass": 18000,
+               "history": []
+          },
+          {
+               "id": 18,
+               "name": "Ford F-150 XLT",
+               "seller": "Ford",
+               "description": "A tough and capable full-size truck that can handle any job. This F-150 XLT is perfect for work or play, with plenty of towing and hauling capacity.",
+               "price": 42000,
+               "kilometersPass": 80000,
+               "history": ["Regularly maintained", "Minor scratches on the exterior."]
+          },
+          {
+               "id": 19,
+               "name": "Jeep Wrangler Rubicon",
+               "seller": "Jeep",
+               "description": "A legendary off-road SUV that's built to take on any challenge. This Wrangler Rubicon is perfect for those who love adventure and want a car that can go anywhere.",
+               "price": 45000,
+               "kilometersPass": 60000,
+               "history": ["Used for off-roading", "Some minor cosmetic damage", "Mechanically sound."]
+          }
+     ]
+}
