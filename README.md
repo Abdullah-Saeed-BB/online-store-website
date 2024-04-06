@@ -1,7 +1,7 @@
 # Online Store Website
 Basic online store, to implement what I learn about OOP, and improve my skills in JavaScript and HTML & CSS.<br>
 *Note: All the images and texts in the project are made by AI*
-### [Live demo](https://abdullah-saeed-bb.github.io/online-store-website/)
+### [Live demo](https://abdullah-saeed-bb.github.io/online-store-website/indexs/home)
 ## Project structure
 #### **scripts:**
  - `cart_btn.js` Is for the purchase request and storing the data by using ***localStorage***.
